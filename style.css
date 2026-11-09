@@ -1,0 +1,41 @@
+body{
+ background-color: black;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+
+#big-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+    padding: 40px;
+    border-radius: 20px;
+}
+h1{
+    color: white;
+
+}
+h3{
+    color :white;
+}
+p{
+    color:white;
+}
+.lien-button{
+    display: flex;
+    height: 30px;
+    width: 120px;
+    background-color: brown;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:white;
+}
+#links-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
